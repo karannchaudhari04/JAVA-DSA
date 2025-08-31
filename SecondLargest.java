@@ -19,6 +19,7 @@ public class SecondLargest{
             } else if(arr[i] > secondLargest && arr[i] != largest) {
                 secondLargest = arr[i];
             }
+            
         }
         if(secondLargest == Integer.MIN_VALUE) {
             System.out.println("There is no second largest element.");
