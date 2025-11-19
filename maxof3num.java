@@ -3,11 +3,10 @@ import java.util.*;
 public class maxof3num {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int a, b, c;
         System.out.println("Enter three numbers: ");
-        a = sc.nextInt();
-        b = sc.nextInt();
-        c = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
         
 
         if(a>= b && a>c){
