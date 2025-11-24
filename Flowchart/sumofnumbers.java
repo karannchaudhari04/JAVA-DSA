@@ -17,3 +17,4 @@ public class sumofnumbers {
         System.out.println("The sum of numbers from 1 to " + num + " is: " + sum);
     }
 }
+
