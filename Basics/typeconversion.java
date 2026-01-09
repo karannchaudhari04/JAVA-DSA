@@ -11,4 +11,3 @@ public class typeconversion {
         System.out.println(num2);
     }
 }
-
