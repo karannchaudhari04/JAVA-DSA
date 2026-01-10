@@ -27,5 +27,6 @@ public class typepromotion {
         double d = 25;
         double ans = i + f + l + d;
         System.out.println(ans);
+        
     }
 }
