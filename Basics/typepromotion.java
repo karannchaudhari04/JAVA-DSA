@@ -19,14 +19,12 @@ public class typepromotion {
         System.out.println(q);
 
 
-
         //Type 2
         int i = 10;
         float f = 20.22f;
         long l = 15;
         double d = 25;
         double ans = i + f + l + d;
-        System.out.println(ans);
-        
+        System.out.println(ans);   
     }
 }
