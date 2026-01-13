@@ -14,5 +14,8 @@ public class maxof2numbers {
         else if(num1 == num2){
             System.out.println(num1+" & "+num2+" are equal numbers");
         }
+        else{
+            System.out.println(num2+" is largest number");
+        }
     }
 }
