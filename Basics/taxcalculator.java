@@ -18,5 +18,4 @@ public class taxcalculator {
         }
         System.out.println("Your tax is "+tax);
     }
-
-
+}
