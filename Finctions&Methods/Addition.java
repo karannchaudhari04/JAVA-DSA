@@ -1,9 +1,5 @@
-public class index {
-    public static void printHello(){
-        System.out.println("Hello, World!");
-        System.out.println("Hello World!");
-        return;
-    }
+public class Addition {
+    
 
     public static void calculateSum(int a, int b){
         int sum = a + b;
@@ -11,7 +7,6 @@ public class index {
     }
 
     public static void main(String[] args) {
-        printHello(); //function call
         calculateSum(5, 10); //method call
     }
 }
