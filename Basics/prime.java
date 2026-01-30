@@ -8,14 +8,15 @@ public class prime {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        if(n == 2){
-            System.out.println(n + " is a prime number.");
+        if(n <= 1){
+            System.out.println(n + " is a not a prime number.");
         }
         else{
             boolean isPrime = true;
-            for (int i = 2; i <= n-1; i++) {
+            for (int i = 2; i <= Math.sqrt(n); i++) {
                 if (n % i == 0) {
                 isPrime = false;
+                break;
                 }
             }
             if (isPrime == true) {
