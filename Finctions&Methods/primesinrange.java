@@ -1,4 +1,4 @@
-public class prime {
+public class primesinrange {
     public static boolean isPrime(int n){
         if(n <= 1){
             return false;
@@ -10,7 +10,15 @@ public class prime {
         }
         return true;
     }
+    public static void primesInRange(int n){
+        for(int i = 2; i <= n; i++){
+            if(isPrime(i)){
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
-        System.out.println(isPrime(2));
+        primesInRange(20);
     }
 }
