@@ -14,3 +14,4 @@ public class prime {
         System.out.println(isPrime(5));
     }
 }
+
