@@ -39,6 +39,6 @@ public class homework {
         average(10, 20, 30);
         System.out.println(isEven(1110));
         isPalindrome(121);
-        computeSum(134199254);
+        computeSum(123456789);
     }
 }
