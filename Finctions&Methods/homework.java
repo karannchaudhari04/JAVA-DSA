@@ -24,9 +24,21 @@ public class homework {
             System.out.println(original+" is not a palindrome.");
         }
     }
+
+    public static void computeSum(int n){
+        int num = n;
+        int sum = 0;
+        while(n > 0){
+            int digit = n % 10;
+            sum = sum + digit;
+            n = n / 10;
+        }
+        System.out.println("Addition of digit in "+num+" is: "+sum);
+    }
     public static void main(String[] args) {
         average(10, 20, 30);
         System.out.println(isEven(1110));
         isPalindrome(121);
+        computeSum(134199254);
     }
 }
