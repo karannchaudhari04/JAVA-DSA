@@ -26,7 +26,7 @@ public class pattern {
        }
     }
     public static void main(String[] args) {
-    //    halfPyramid(5);
-       inverted_Half_Pyramid(5);
+        halfPyramid(5);
+        inverted_Half_Pyramid(5);
     }
 }
