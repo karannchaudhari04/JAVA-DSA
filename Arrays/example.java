@@ -1,4 +1,4 @@
-public class example {
+public class Example {
     public static int find(String fruits[], String key){
         for(int i=0; i<fruits.length; i++){
             if(fruits[i].equals(key)){
