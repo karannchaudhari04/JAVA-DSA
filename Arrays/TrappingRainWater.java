@@ -2,7 +2,7 @@ public class TrappingRainWater {
     public static int trapped_Water(int height[]){
         int n = height.length;
 
-        //calculate leftMax Boundry - array
+        //calculate leftMax Boundry - array 
         int leftMax[] =  new int[n];
         leftMax[0] = height[0];
         for(int i=1; i<n; i++){
