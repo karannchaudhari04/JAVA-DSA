@@ -1,11 +1,9 @@
 public class BuySellStocks {
     public static int buy_sell_stocks(int prices[]){
-        int n = prices.length;
-        //
         int buyPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
 
-        for(int i=0; i<n; i++){
+        for(int i=0; i<prices.length; i++){
             if(buyPrice < prices[i]){ //profit
                 int profit = prices[i] - buyPrice; //Today's Profit
                 maxProfit = Math.max(maxProfit, profit);
