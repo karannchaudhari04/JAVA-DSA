@@ -17,7 +17,7 @@ public class TrappingRainWater {
         }
 
         int trappedWater = 0;
-        //loop
+        //calculate trapped water at each index
         for(int i=0; i<n; i++){
             //waterLevel = min(leftMax Boundry, rightMax Boundry)
             int watertLevel = Math.min(leftMax[i], rightMax[i]);
