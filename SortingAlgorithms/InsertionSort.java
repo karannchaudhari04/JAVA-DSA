@@ -4,7 +4,7 @@ public class InsertionSort {
             int curr = arr[i];
             int prev = i-1;
             //finding out correct postion to insert
-            while(prev >= 0 && arr[prev] > curr){
+            while(prev >= 0 && arr[prev] < curr){
                 arr[prev+1] = arr[prev];
                 prev --;
             }
