@@ -1,5 +1,5 @@
 import java.util.*;
-public class main {
+public class SearchNumber {
 
     public static void search(int matrix[][], int key){
         for(int i=0; i<matrix.length; i++){
