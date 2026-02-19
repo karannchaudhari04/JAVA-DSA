@@ -23,4 +23,3 @@ public class DiagonalSum {
         System.out.println(diagonalSum(matrix));
     }
 }
-
