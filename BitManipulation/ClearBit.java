@@ -6,6 +6,6 @@ public class ClearBit {
 
     }
     public static void main(String[] args) {
-        System.out.println(clearBit(10, 2));
+        System.out.println(clearBit(10, 1));
     }
 }
