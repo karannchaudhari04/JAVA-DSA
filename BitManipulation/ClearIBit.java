@@ -7,6 +7,6 @@ public class ClearIBit {
 
     }
     public static void main(String[] args) {
-        System.out.println(clearIBit(15, 2));
+        System.out.println(clearIBit(10, 2));
     }
 }
