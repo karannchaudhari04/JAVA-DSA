@@ -12,6 +12,14 @@ public class Update {
     }
 
     public static int update(int n, int i, int newBit){
+        // if(newBit == 0){
+        //     return clearBit(n, i);
+        // }
+        // else{
+        //     return setBit(n, i);
+        // }
+
+
         n = clearBit(n, i);
         int bitMask = newBit << i;
         return n | bitMask;
