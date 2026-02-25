@@ -4,7 +4,7 @@ public class CountSetBits {
     public static int countSetBit(int n) {
         int count = 0;
         while(n>0){
-            if((n&1) != 0){
+            if((n&1) != 0){ //Check LSB
                 count ++;
             }
             n = n>>1;
