@@ -2,20 +2,20 @@ package OOP;
 
 public class GetSet {
     public static void main(String[] args) {
-        Student s = new Student();
-        s.setName("Karan");
-        System.out.println(s.getName());
-        s.setRollNo(10);
-        System.out.println(s.getRollNo());
+        Person p = new Person();
+        p.setName("Karan");
+        System.out.println(p.getName());
+        p.setRollNo(10);
+        System.out.println(p.getRollNo());
     }
 }
 
-class Student{
-    private String s_name;
+class Person{
+    private String name;
     private int RollNo;
 
     String getName(){
-        return this.s_name;
+        return this.name;
     }
 
     int getRollNo(){
@@ -23,7 +23,7 @@ class Student{
     }
 
     void setName(String newName){
-        s_name = newName;
+        name = newName;
     }
 
     void setRollNo(int newRollNo){

@@ -1,16 +1,16 @@
 package OOP;
 public class Constructor {
     public static void main(String[] args) {
-        Student s = new Student("Karan");
-        System.out.println(s.name);
+        Emp e = new Emp("Karan");
+        System.out.println(e.name);
     }
 }
 
-class Student{
+class Emp{
     String name;
     int roll;
 
-    Student(String name){
+    Emp(String name){
         this.name = name;
     }
 }

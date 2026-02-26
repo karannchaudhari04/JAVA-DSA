@@ -1,27 +1,48 @@
 package OOP;
 
-public class CopyConstructor {
-    public static void main(String[] args) {
+public class CopyConstructor{
+    public static void main(String args[]) {
         Student s1 = new Student();
-        s1.id = 101;
         s1.name = "Karan";
-        s1.password = "secret";
-        Student s2 = new Student(s1); // Using copy constructor
-         s2.password = "hidden"; // Modifying s2's password
+        s1.roll = 10;
+        s1.password = "abcd";
+        s1.marks[0] = 99;
+        s1.marks[1] = 95;
+        s1.marks[2] = 90;
+
+        Student s2 = new Student(s1);
+        s2.password = "xyz";
+
+        s1.marks[1] = 100;
+
+        for(int i=0; i<3; i++){
+            System.out.println(s2.marks[i]);
+        }
     }
 }
-class Student {
-    int id;
+
+class Student{
+    int roll;
     String name;
     String password;
+    int marks[];
 
-    Student() {
-        
+    
+    Student(Student s1){
+        marks = new int[3];
+        this.name = s1.name;
+        this.roll = s1.roll;
+        this.marks = s1.marks;
     }
 
-    // Copy Constructor
-    Student(Student s) {
-        this.id = s.id;
-        this.name = s.name;
+    Student(){
+        marks = new int[3];
+        System.out.println("Constructor is called.....");
+    }
+
+    Student(String name, int roll){
+        marks = new int[3];
+        this.name = name;
+        this.roll = roll;
     }
 }
