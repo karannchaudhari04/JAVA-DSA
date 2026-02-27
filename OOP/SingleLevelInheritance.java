@@ -11,7 +11,7 @@ public class SingleLevelInheritance {
     }
 }
 
-class Animal{
+class Animals{
     String color;
 
     void eat(){
@@ -23,7 +23,7 @@ class Animal{
     }
 }
 
-class Dog extends Animal{
+class Dog extends Animals{
     int legs;
 
     void bark(){
