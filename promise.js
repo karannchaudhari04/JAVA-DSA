@@ -1,14 +1,14 @@
-let myPromise = new Promise(function(resolve, reject){
+let myPromise = new Promise(function(resolve,reject){
     let success = true;
     if(success){
         resolve("Operation Success");
     }
     else{
-        reject("Operation Failed")
+        reject("Operation Failed");
     }
 });
 
-myPromise
+myPromise 
 .then(function(result){
     console.log(result);
 })
