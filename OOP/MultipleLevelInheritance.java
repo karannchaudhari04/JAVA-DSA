@@ -1,4 +1,5 @@
 package OOP;
+
 public class MultipleLevelInheritance {
     public static void main(String[] args) {
         Dept d = new Dept();
