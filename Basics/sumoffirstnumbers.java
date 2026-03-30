@@ -1,18 +1,14 @@
 package Basics;
 
-import java.util.Scanner;
-
 public class sumoffirstnumbers {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int n = sc.nextInt();
+        int n = 5;
         int sum = 0;
-        int i =1;
+        int i = 1;
         while(i<=n){
-            sum = sum+i;
+            sum += i;
             i++;
         }
-        System.out.println("Sum is: "+sum);
-    }   
+        System.out.print(sum);
+    }
 }
