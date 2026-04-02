@@ -32,4 +32,3 @@ public class SearchNumber {
         search(matrix, 8);
     }
 }
-
