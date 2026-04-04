@@ -30,4 +30,3 @@ class Dog extends Animals{
         System.out.println("Bhow.. Bhow..");
     }
 }
-
