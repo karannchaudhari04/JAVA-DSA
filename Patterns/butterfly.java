@@ -39,4 +39,3 @@ public class butterfly {
         butterfly_Pattern(5);
     }
 }
-
