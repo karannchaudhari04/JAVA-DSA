@@ -31,3 +31,4 @@ public class diamond {
         diamond_Pattern(4);
     }
 }
+
