@@ -1,5 +1,7 @@
 package Patterns;
 
+import java.util.Scanner;
+
 public class Pattern1 {
     public static void firstPattern(int n){
         for(int i=0; i<n; i++){
@@ -10,6 +12,8 @@ public class Pattern1 {
         }
     }
     public static void main(String[] args) {
-        firstPattern(4);
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        firstPattern(n);
     }
 }
