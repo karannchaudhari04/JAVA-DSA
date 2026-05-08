@@ -1,6 +1,6 @@
 package Patterns;
 
-public class pattern2 {
+public class inverted_Half_PyramidNumbers {
      public static void inverted_Half_Pyramid_Numbers(int n){
         //outer loop rows
         for(int i=1; i<=n; i++){

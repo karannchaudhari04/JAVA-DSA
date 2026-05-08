@@ -1,6 +1,6 @@
 package Patterns;
 
-public class pattern3 {
+public class Binary_Triangle {
     public static void binary_Triangle(int n){
         for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
