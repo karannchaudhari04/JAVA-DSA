@@ -16,7 +16,6 @@ public class CountDigitInNumber{
         System.out.println("Total count = "+count);
         return count;
     }
-    
     public static void main(String[] args) {
         count(456450);
         count1(9465);
