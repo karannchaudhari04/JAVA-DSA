@@ -10,7 +10,6 @@ public class CountDigitInNumber{
         System.out.println("Total count = "+count);
         return count;
     }
-
     public static int count1(int n){
         int count = (int)(Math.log10(n) + 1);
         System.out.println("Total count = "+count);
