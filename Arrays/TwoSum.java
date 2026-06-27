@@ -24,9 +24,7 @@ public class TwoSum {
         int target = 9;
 
         TwoSum ts = new TwoSum();
-
         int[] result = ts.twoSum(nums, target);
-
         System.out.println(Arrays.toString(result));
     }
 }
