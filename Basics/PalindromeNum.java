@@ -20,6 +20,7 @@ public class PalindromeNum {
     }
     public static void main(String[] args) {
         int num = 54345;
-        palindrome(num);
+        boolean ans = palindrome(num);
+        System.out.println(ans);
     }
 }
