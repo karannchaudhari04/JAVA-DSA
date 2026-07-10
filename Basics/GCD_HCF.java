@@ -1,6 +1,6 @@
 package Basics;
 
-public class GCD {
+public class GCD_HCF {
     public static void main(String[] args) {
         int a = 18;
         int b = 12;
