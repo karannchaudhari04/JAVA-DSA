@@ -1,16 +1,13 @@
 package Basics;
 
-import java.util.Scanner;
 
 public class factorial {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number to calculate its factorial: ");
-        int number = sc.nextInt();
+        int num = 5;
         int factorial = 1;
-        for (int i = 1; i <= number; i++) {
-            factorial *= i;
+        for(int i=1; i<=num; i++){
+            factorial = factorial * i;
         }
-        System.out.println("Factorial of " + number + " is: " + factorial);
+        System.out.println("Factorial of " + num + " is: " + factorial);
     }
 }
