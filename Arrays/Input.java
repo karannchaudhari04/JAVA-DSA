@@ -5,12 +5,11 @@ public class Input {
 
         int arr[] = new int[5];
         int n = arr.length;
-
+        System.out.println("Enter 5 array elements: ");
         for(int i=0; i<n; i++){
-            System.out.println("Provide input for index: "+i);
             arr[i] = sc.nextInt();
         }
-        System.out.println("Array cantains: ");
+        System.out.println("Array Elements: ");
         for(int i=0; i<n; i++){
             System.out.println(arr[i]);
         }
