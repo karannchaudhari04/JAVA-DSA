@@ -11,6 +11,7 @@ public class LCM {
             b = a%b;
             a = temp;
         }
+        
         int gcd = a;
         int lcm = prod/gcd;
         System.out.println(lcm);
