@@ -1,14 +1,14 @@
 public class backtrack1{
-    public static void print(int i, int n){
-        if(i < 1){
+    public static void print(int n){
+        if(n < 1){
             return;
         }
-        print(i-1, n);
-        System.out.println(i);
+        print(n - 1);
+        System.out.println(n);
 
     }
     public static void main(String[] args) {
         int n = 5;
-        print(n,n);
+        print(n);
     }
 }
