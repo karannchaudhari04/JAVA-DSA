@@ -9,10 +9,16 @@ public class SumOfN {
     }
 
     //Functional Way
-    
+    public static int print1(int i){
+        if(i == 0){
+            return 0;
+        }
+        return i + print1(i-1);
+    }
     public static void main(String[] args) {
         int i = 5;
         int sum = 0;
         print(i,sum);
+        System.out.println(print1(i));
     }
 }
