@@ -1,4 +1,4 @@
-public class LinearSearch {
+public class linearSearch {
     public static int linear_Search(int numbers[], int key){
         for(int i=0; i<numbers.length; i++){
             if(numbers[i] == key){
